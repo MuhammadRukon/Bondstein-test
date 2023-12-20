@@ -8,6 +8,7 @@ export default {
     },
     fontFamily: {
       dmSans: "'DM Sans', sans-serif",
+      integralCf: "'Integral CF Regular', sans-serif",
     },
   },
   plugins: [],

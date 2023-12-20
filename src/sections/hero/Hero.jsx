@@ -13,31 +13,37 @@ const Hero = () => {
       <div className="flex gap-[29px] flex-col items-center pt-[57px] pb-[122px] lg:flex-row">
         {/* content */}
         <div className="w-full text-center lg:text-left space-y-[22px] lg:w-[55%]">
-          <h1 className="uppercase text-3xl lg:text-[40px]">
+          <h1 className="uppercase font-bold font-integralCf text-3xl lg:text-[40px]">
             Discover, and collect <br /> Digital Art NFTs
           </h1>
-          <p className=" w-[60%] mx-auto lg:mx-0 text-[#565656] text-[20px]">
+          <p className="w-full lg:w-[60%] mx-auto lg:mx-0 text-[#565656] text-lg  lg:text-[20px]">
             Digital marketplace for crypto collectibles and non-fungible tokens
             (NFTs). Buy, Sell, and discover exclusive digital assets.
           </p>
           <Button text={"Explore Now"} fill={true} lg={true} />
-          <div className="flex justify-center lg:justify-start gap-[23px] text-[40px]">
+          <div className="flex justify-center lg:justify-start gap-[23px] text-3xl lg:text-[40px]">
             <div>
-              <h2 className="font-extrabold">98K+</h2>
+              <h2 className="font-bold font-integralCf">
+                98<span className="font-normal">K+</span>
+              </h2>
               <p className="text-[#565656] text-xl">Artwork</p>
             </div>
             <div>
-              <h2 className="font-extrabold">98K+</h2>
+              <h2 className="font-bold font-integralCf">
+                98<span className="font-normal">K+</span>
+              </h2>
               <p className="text-[#565656] text-xl">Artwork</p>
             </div>
             <div>
-              <h2 className="font-extrabold">98K+</h2>
+              <h2 className="font-bold font-integralCf">
+                98<span className="font-normal">K+</span>
+              </h2>
               <p className="text-[#565656] text-xl">Artwork</p>
             </div>
           </div>
         </div>
         {/* images */}
-        <div className="relative flex justify-center w-[80vw] xl:w-[40%] h-[440px]">
+        <div className="group relative flex justify-center w-[80vw] xl:w-[40%] h-[440px]">
           {/* first image */}
           <div className="absolute z-20  lg:right-[67px] top-[50%] translate-y-[-50%]">
             <div className="relative">
@@ -52,7 +58,7 @@ const Hero = () => {
                   <p className="text-[20px]">Arkhan17</p>
                 </div>
                 {/* ellipse */}
-                <div className="rounded-full absolute top-[30%] lg:top-[40%] -left-[17%]">
+                <div className="rounded-full absolute top-[30%] lg:top-[40%] group-hover:animate-spin -left-[17%]">
                   <img src={auctionEllipse} alt="" />
                 </div>
                 {/* blur bg */}

@@ -6,10 +6,10 @@ const TransactionDetails = () => {
     <div className="bg-[#d9e0ec33] pt-[125px] pb-[97px]">
       <Container>
         <div className="w-full text-[20px] gap-10 lg flex flex-col items-start lg:flex-row justify-between text-center lg:text-left">
-          <h1 className="lg:w-[40%] w-full uppercase text-3xl lg:text-[40px]">
+          <h2 className="lg:w-[44%] font-bold font-integralCf w-full uppercase text-3xl xl:text-[40px]">
             The amazing NFT art <br /> of the world here
-          </h1>
-          <div className="lg:w-[30%] w-full text-left flex gap-[15px]">
+          </h2>
+          <div className="lg:w-[28%] w-full text-left flex gap-[15px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="36"
@@ -47,7 +47,7 @@ const TransactionDetails = () => {
               </p>
             </div>
           </div>
-          <div className=" lg:w-[30%] w-full text-left flex gap-[15px]">
+          <div className=" lg:w-[28%] w-full text-left flex gap-[15px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="36"

@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "../container/Container";
 import Button from "../button/Button";
-import LogoBlack from "../../assets/NFtersBlack.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -12,7 +11,7 @@ const Footer = () => {
           {/* first column */}
           <div className="col-span-2 mb-12 lg:mb-0 flex flex-col">
             <Link to={"/"} className="text-base font-bold ">
-              <img src={LogoBlack} alt="" />
+              <p className="font-integralCf  font-bold text-2xl">NFTERs</p>
             </Link>
             <p className="w-[90%] my-[24px]">
               The world’s first and largest digital marketplace for crypto

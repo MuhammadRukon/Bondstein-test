@@ -1,0 +1,42 @@
+[
+  {
+    "name": "CryptoFunks",
+    "percentage": "+26.52%",
+    "eth": 19769.39,
+    "status": "up",
+    "image": "/collection1.png",
+    "verified": true
+  },
+  {
+    "name": "Cryptix",
+    "percentage": "+10.52%",
+    "eth": 2769.39,
+    "status": "down",
+    "image": "/collection2.png",
+    "verified": false
+  },
+  {
+    "name": "Frensware",
+    "percentage": "+2.52%",
+    "eth": 9232.39,
+    "status": "up",
+    "image": "/collection3.png",
+    "verified": false
+  },
+  {
+    "name": "PunkArt",
+    "percentage": "+1.52%",
+    "eth": 3769.39,
+    "status": "up",
+    "image": "/collection4.png",
+    "verified": true
+  },
+  {
+    "name": "Art Crypto",
+    "percentage": "+2.52%",
+    "eth": 10769.39,
+    "status": "down",
+    "image": "/collection5.png",
+    "verified": false
+  }
+]

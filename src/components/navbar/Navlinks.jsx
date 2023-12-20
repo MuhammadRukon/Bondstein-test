@@ -6,21 +6,24 @@ const Navlinks = () => {
     <>
       <Link
         to="/"
-        className="px-4 py-3 hover:bg-neutral-100 transition font-semibold"
+        className="group hover:bg-[#EFEFEF] relative px-4 py-3 hover:bg-neutral-100 transition font-semibold"
       >
         Marketplace
+        <div className="w-0 absolute left-[50%] bottom-0 group-hover:left-0 h-[2px] group-hover:w-full transition-all group-hover:bg-primary"></div>
       </Link>
       <Link
         to="/"
-        className="px-4 py-3 hover:bg-neutral-100 transition font-semibold"
+        className="group hover:bg-[#EFEFEF] relative px-4 py-3 hover:bg-neutral-100 transition font-semibold"
       >
         Resources
+        <div className="w-0 absolute left-[50%] bottom-0 group-hover:left-0 h-[2px] group-hover:w-full transition-all group-hover:bg-primary"></div>
       </Link>
       <Link
-        to="/signup"
-        className="px-4 py-3 hover:bg-neutral-100 transition font-semibold"
+        to="/"
+        className="group hover:bg-[#EFEFEF] relative px-4 py-3 hover:bg-neutral-100 transition font-semibold"
       >
         About
+        <div className="w-0 absolute left-[50%] bottom-0 group-hover:left-0 h-[2px] group-hover:w-full transition-all group-hover:bg-primary"></div>
       </Link>
     </>
   );

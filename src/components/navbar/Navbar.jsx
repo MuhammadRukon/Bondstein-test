@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import MenuDropdown from "./MenuDropdown";
 import Container from "../container/Container";
-import Logo from "../../assets/NFters.png";
 import Navlinks from "./Navlinks";
 import Button from "../button/Button";
 
@@ -13,7 +12,9 @@ const Navbar = () => {
           <div className="flex flex-row items-center justify-between gap-3 md:gap-0">
             {/* Logo */}
             <Link to="/">
-              <img className="" src={Logo} alt="logo" />
+              <p className="font-integralCf text-primary font-bold text-2xl">
+                NFTERs
+              </p>
             </Link>
             <div className="h-8 w-[1px] hidden lg:block bg-[#EFEFEF]"></div>
             {/* menu items */}

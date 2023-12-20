@@ -7,7 +7,7 @@ import Button from "../button/Button";
 
 const Navbar = () => {
   return (
-    <div className="fixed top-0 w-full bg-[#fff] z-10 shadow-sm">
+    <div className="fixed top-0 w-full bg-[#fff] z-[999] shadow-sm">
       <div className="py-[31px] border-b-[1px] border-[#EFEFEF]">
         <Container>
           <div className="flex flex-row items-center justify-between gap-3 md:gap-0">

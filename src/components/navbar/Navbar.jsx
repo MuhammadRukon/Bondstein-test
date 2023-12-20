@@ -50,8 +50,12 @@ const Navbar = () => {
                   </svg>
                 </button>
               </div>
-              <div className="hidden sm:block">
+              <div className="hidden relative sm:block">
                 <Button text={"Upload"} fill={true} lg={true} />
+                <input
+                  type="file"
+                  className="absolute top-0 left-0 w-full cursor-pointer rounded-full opacity-0 h-full"
+                />
               </div>
               <div className="hidden sm:block">
                 <Button text={"Connect Wallet"} outlined={true} lg={true} />

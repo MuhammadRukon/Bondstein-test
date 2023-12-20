@@ -209,17 +209,17 @@ const Discover = () => {
             All Filters
           </p>
         </div>
-        <div className="grid grid-col-1 justify-center lg:justify-between gap-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mb-[55px]">
+        <div className="grid  grid-col-1 justify-center lg:justify-between gap-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mb-[55px]">
           {/* cards */}
           {datas?.map((data) => (
             <div
               key={data?.id}
-              className="w-[270px] justify-self-center p-[10px] bg-[#FFF] rounded-2xl"
+              className="w-[270px] group justify-self-center p-[10px] bg-[#FFF] rounded-2xl"
             >
               {/* card image */}
-              <div className="relative group">
+              <div className="relative">
                 <img src={data?.image} className="w-[247px] h-[222px]" alt="" />
-                <div className="flex absolute bottom-0 translate-y-[50%] ml-2  left-0 group-hover:-space-x-0 transition-all group-hover:scale-110 -space-x-[10px]">
+                <div className="flex absolute bottom-0 translate-y-[50%] ml-2  left-0 transition-all -space-x-[10px]">
                   {data?.users?.map((user, index) => (
                     <img className="h-[30px] w-[30px]" src={user} key={index} />
                   ))}
@@ -260,8 +260,8 @@ const Discover = () => {
                   <p className=" bg-[#EFEFEF] text-white text-[12px] rounded-full px-3 py-1">
                     {data?.timeLeft} Left
                   </p>
-                  <div className="group  relative cursor-pointer">
-                    <p>Place a bid</p>
+                  <div className="group hover:bg-[#EFEFEF] transition-all relative cursor-pointer">
+                    <p className="px-2 py-1">Place a bid</p>
                     <div className="w-0 absolute left-[50%] group-hover:left-0 h-[2px] group-hover:w-full transition-all group-hover:bg-primary"></div>
                   </div>
                 </div>

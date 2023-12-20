@@ -20,7 +20,11 @@ const Footer = () => {
             </p>
             {/* social icons */}
             <div className="flex gap-4">
-              <a href="">
+              <a
+                className="hover:scale-125 transition-all"
+                href="https://www.facebook.com/muhammad.rukon.7"
+                target="#"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="36"
@@ -45,7 +49,11 @@ const Footer = () => {
                   </defs>
                 </svg>
               </a>
-              <a href="">
+              <a
+                className="hover:scale-125 transition-all"
+                href="https://github.com/MuhammadRukon"
+                target="#"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="36"
@@ -70,7 +78,11 @@ const Footer = () => {
                   </defs>
                 </svg>
               </a>
-              <a href="">
+              <a
+                className="hover:scale-125 transition-all"
+                href="https://www.linkedin.com/in/muhammadrukon"
+                target="#"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="36"
